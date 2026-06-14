@@ -19,10 +19,14 @@ The study answers three core analytical questions:
 ### 🧮 1. Elite Math Performance
 Schools were classified as elite math performers if their average math evaluation score met or exceeded *80% of the maximum possible score (640 out of 800)*. 
 - Top performing institutions include *Stuyvesant High School, **Bronx High School of Science, and **Staten Island Technical High School*.
+#### Workspace Verification:
+![Math_Results](math_results.png)
 
 ### 🏆 2. Top Cumulative SAT Scores
 By engineering a cumulative column (total_SAT) reflecting the combined performance across Reading, Math, and Writing, the top 10 highest-performing schools were isolated. 
 - *Stuyvesant High School* leads New York City with a massive combined average SAT score of *2144*.
+#### Workspace Verification:
+![Top 10 Schools](top_10_schools.png)
 
 ### 🏙️ 3. Geographic Score Variability
 Grouping the schools regionally revealed that *Manhattan* exhibits the highest performance volatility. While it houses some of the most elite schools in the nation, it also displays the largest internal performance disparity:
@@ -30,3 +34,5 @@ Grouping the schools regionally revealed that *Manhattan* exhibits the highest p
 - *Total Schools Analyzed:* 89
 - *Average Combined SAT Score:* 1340.13
 - *Standard Deviation (std_SAT):* 230.29
+#### Workspace Verification:
+![Borough Standard Deviation](borough_std.png)
